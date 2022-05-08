@@ -8,6 +8,7 @@ TagManager:
   - car
   - intersection
   - car trigger
+  - perpendicular trigger
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Car Hitboxes
   - 
   - 
   - 
