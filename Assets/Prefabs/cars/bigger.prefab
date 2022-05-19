@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3259320943435526704
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8144607862908812083, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812083, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.74846977
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812083, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.4638083
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812083, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.1970844
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812083, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.8991184
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812083, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812083, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812083, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812083, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812083, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812083, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812083, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812085, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2d2fd4c02ae98714083da9152ff8a9e9, type: 2}
+    - target: {fileID: 8144607862908812088, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_Name
+      value: bigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812089, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: rayStart
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812089, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: brakeSpeed
+      value: 1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812089, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: rayDistance
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607862908812089, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: acceleration
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607863464615209, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_Size.z
+      value: 1.7484567
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144607863464615209, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
+      propertyPath: m_Center.z
+      value: 0.21766266
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 51345d1c826b0764eadb074c4487372e, type: 3}
