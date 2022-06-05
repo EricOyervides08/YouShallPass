@@ -1,6 +1,7 @@
 -- CREATE DATABASE 
 CREATE DATABASE youshallpass;
 
+-- ==========================
 -- CREATE TABLES
 CREATE TABLE players
 (
@@ -33,7 +34,9 @@ CREATE TABLE bitacora
 	time_log TIMESTAMP
 );
 
--- PROCEDURES/FUNCTIONS TABLA PLAYERS
+-- ==========================
+-- PROCEDURES/FUNCTIONS PLAYERS TABLE
+
 -- INSERT
 CREATE OR REPLACE PROCEDURE sp_player_insert(nnickname VARCHAR, nemail VARCHAR, nage INT, ncountry VARCHAR)
 AS $$ 
@@ -70,7 +73,9 @@ AS $$
 	END;
 $$;
 
+-- ==========================
 -- PROCEDURES/FUNCTIONS TABLA GAMES
+
 -- INSERT
 CREATE OR REPLACE PROCEDURE sp_games_insert(game_score INT, game_time TIME, p_id INT)
 AS $$ 
@@ -103,6 +108,7 @@ INCREMENT 1
 START WITH 1 
 OWNED BY bitacora.ids;
 
+-- ==========================
 -- ALTER TABLE bitacora
 -- ALTER COLUMN ids SET DEFAULT nextval('sq_bitacora_ids');
 
