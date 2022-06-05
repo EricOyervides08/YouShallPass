@@ -80,7 +80,7 @@ public class car : MonoBehaviour
                 Steer();
 
                 //despues del tiempo, resetear variables de cruce
-                if (crossTimer >= 4f) {
+                if (crossTimer >= 1f) {
                     crossing = false;
                     assignedDirection = false;
                     intersection = null;
@@ -107,6 +107,7 @@ public class car : MonoBehaviour
                     //volver a condiciones normales
                     //Debug.Log("acabo vuelta");
                     transform.SetParent(this.transform.parent.parent, true);
+                    animatorObject.transform.SetParent(transform, true);
                     velocity = targetVelocity;
                     //transform.parent.GetComponent<Animator>().applyRootMotion = true;
                     //this.gameObject.layer = 0;
@@ -278,6 +279,7 @@ public class car : MonoBehaviour
     private void OnCollisionEnter(Collision other) {
         //al chocar
         if (other.gameObject.tag == "car") {
+            game_controller.crashes++;
             //cambiar variables de rigidbody y desabilidar ambos
             //Debug.Log("crash");
             this.gameObject.GetComponent<Rigidbody>().drag = .5f;

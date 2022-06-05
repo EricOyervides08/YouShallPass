@@ -6,25 +6,64 @@ public class traffic_light : MonoBehaviour
 {
     public GameObject[] lights;
     public string state = "";
+    public float yellowTime = 1;
     public bool green = true;
     public bool yellow;
     public bool red;
 
+    public bool inTransition = false;
+    private float transitionTime = 0;
+    private string goal = "Red";
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        inTransition = false;
+        state = "Red";
+        goal = state;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (green)
-            Green();
-        else if (yellow)
-            Yellow();
+        if (!inTransition)
+        {
+            transitionTime = 0;
+            if (state == "Green")
+                Green();
+            if (state == "Red")
+                Red();
+            if (state == "Yellow")
+                Yellow();
+            if (state != goal)
+            {
+                inTransition = true;
+            }
+        }
         else
-            Red();
+        {
+            transitionTime += Time.deltaTime;
+            if (goal == "Green")
+            {
+                state = "Green";
+                Green();
+                inTransition = false;
+            }
+            if (goal == "Red")
+            {
+                if (transitionTime < yellowTime)
+                {
+                    state = "Yellow";
+                    Yellow();
+                }
+                else
+                {
+                    state = "Red";
+                    Red();
+                    inTransition = false;
+                }
+            }
+        }
     }
     private void Green() 
     {
@@ -59,4 +98,17 @@ public class traffic_light : MonoBehaviour
             green = false;
         }
     }
+
+    public void Change()
+    {
+        if (goal == "Red")
+        {
+            goal = "Green";
+        }
+        else if (goal == "Green")
+        {
+            goal = "Red";
+        }
+    }
+
 }

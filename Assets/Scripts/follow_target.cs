@@ -12,6 +12,7 @@ public class follow_target : MonoBehaviour
     private bool inTransition;
     private float transitionTime;
     private Vector3 pastPosition;
+    private Vector3 goalPos;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,6 @@ public class follow_target : MonoBehaviour
             transitionTime += Time.deltaTime;
   
             Vector3 newPos = Vector3.zero;
-            Vector3 goalPos = target.position + offset;
             newPos.x = curve.Evaluate(transitionTime / timeTarget) * (goalPos.x-pastPosition.x) + pastPosition.x;
             newPos.y = curve.Evaluate(transitionTime / timeTarget) * (goalPos.y - pastPosition.y) + pastPosition.y;
             newPos.z = curve.Evaluate(transitionTime / timeTarget) * (goalPos.z - pastPosition.z) + pastPosition.z;
@@ -36,6 +36,12 @@ public class follow_target : MonoBehaviour
             {
                 inTransition = false;
             }
+            if (target.position + offset != goalPos)
+            {
+                transitionTime = 0;
+                pastPosition = transform.position;
+                goalPos = target.position + offset;
+            }
         }
         else
         {
@@ -43,6 +49,7 @@ public class follow_target : MonoBehaviour
             if (transform.position + offset != target.position)
             {
                 pastPosition = transform.position;
+                goalPos = target.position + offset;
                 inTransition = true;
             }
         }
