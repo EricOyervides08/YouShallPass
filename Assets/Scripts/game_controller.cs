@@ -3,17 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Networking;
 
 public class game_controller : MonoBehaviour
 {
     //variable score
     public static int score = 0;
     public static int crashes;
-    public int lives = 1;
+    public static int lives = 1;
     public string state = "";
     private GameObject player;
     public GameObject pauseMenu;
     public GameObject resultsMenu;
+    public GameObject spawners;
+
+    float timer;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +26,8 @@ public class game_controller : MonoBehaviour
         player = GameObject.Find("Player");
         pauseMenu.SetActive(false);
         resultsMenu.SetActive(false);
+
+        timer = 0;
     }
 
     // Update is called once per frame
@@ -53,12 +59,42 @@ public class game_controller : MonoBehaviour
             SceneManager.LoadScene("inicio");
         }
     }
-    public void GameOver()
+    public void PostData(int intScore, string score = "score")
     {
-        Time.timeScale = 0;
-        resultsMenu.SetActive(true);
-        state = "Results";
-        resultsMenu.GetComponentInChildren<Text>().text = "Score: " + score;
+        StartCoroutine(PostDataCorrutina(intScore, score));
+    }
+
+    IEnumerator PostDataCorrutina(int intScore, string strScore)
+    {
+        string intScoreStr = intScore.ToString(); ;
+        string url = "https://localhost:5000/api/post";
+        WWWForm form = new WWWForm();
+        form.AddField(strScore, intScoreStr);
+        using (UnityWebRequest request = UnityWebRequest.Post(url, form))
+        {
+            yield return request.SendWebRequest();
+            if (request.isNetworkError || request.isHttpError)
+            {
+                Debug.LogError(request.error);
+            }
+            else
+            {
+                Debug.Log(request.downloadHandler.text);
+            }
+        }
+    }
+
+    public void GameOver()
+    {  
+        if (state != "Results")
+        {
+            PostData(score);
+
+            spawners.SetActive(false);
+            resultsMenu.SetActive(true);
+            state = "Results";
+            resultsMenu.GetComponentInChildren<Text>().text = "Score: " + score;
+        }
     }
     void Pause()
     {
