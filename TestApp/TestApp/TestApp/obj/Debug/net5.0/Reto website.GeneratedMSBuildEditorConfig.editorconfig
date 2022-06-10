@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Reto_website
-build_property.ProjectDir = /Users/diegopinones/Documents/TestApp/TestApp/TestApp/
+build_property.ProjectDir = /Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/

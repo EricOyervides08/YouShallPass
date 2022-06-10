@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cpcf7445O9R/fe57UbZKD5IundXl2RVQ7XRnP5dOye9AQgj4tx1saoxepYmvdcBw1dgZrFfvfZkbOsyM1cRWzQ==",
+  "dgSpecHash": "kuIAVf3vnLBrDAD1ld4OtokJjgUUYzweAEIx0STmyJhiruMNZE6e1Pg5yLmdTrwZ4q4Fphv0dA9h49Usdh3rcg==",
   "success": true,
-  "projectFilePath": "/Users/diegopinones/Documents/TestApp/TestApp/TestApp/Reto website.csproj",
+  "projectFilePath": "/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/Reto website.csproj",
   "expectedPackageFiles": [
     "/Users/diegopinones/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/diegopinones/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

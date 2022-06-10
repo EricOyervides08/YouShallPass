@@ -896,11 +896,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/diegopinones/Documents/TestApp/TestApp/TestApp/Reto website.csproj",
+      "projectUniqueName": "/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/Reto website.csproj",
       "projectName": "Reto website",
-      "projectPath": "/Users/diegopinones/Documents/TestApp/TestApp/TestApp/Reto website.csproj",
+      "projectPath": "/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/Reto website.csproj",
       "packagesPath": "/Users/diegopinones/.nuget/packages/",
-      "outputPath": "/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/",
+      "outputPath": "/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/diegopinones/.config/NuGet/NuGet.Config"

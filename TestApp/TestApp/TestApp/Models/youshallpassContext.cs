@@ -70,10 +70,6 @@ namespace TestApp.Models
                     .HasColumnName("game_date")
                     .HasDefaultValueSql("CURRENT_DATE");
 
-                entity.Property(e => e.Gametime)
-                    .HasColumnType("time without time zone")
-                    .HasColumnName("gametime");
-
                 entity.Property(e => e.PlayerId)
                     .ValueGeneratedOnAdd()
                     .HasColumnName("player_id");

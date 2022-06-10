@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{DF9198BC-D54A-41E4-A07B-CDDB91EEB534}|TestApp">
   <MonoDevelop.Ide.ItemProperties.Reto_220website PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/Views/Home/Register.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/Models/youshallpassContext.cs">
     <Files>
       <File FileName="TestApp/Controllers/HomeController.cs" Line="111" Column="1" />
-      <File FileName="TestApp/Controllers/PersonApiController.cs" />
       <File FileName="TestApp/Views/Shared/_Layout.cshtml" />
       <File FileName="TestApp/Views/Home/Scoreboard.cshtml" />
       <File FileName="TestApp/Views/Home/Game.cshtml" />
@@ -11,11 +10,11 @@
       <File FileName="TestApp/Models/Game.cs" />
       <File FileName="TestApp/Models/Bitacora.cs" />
       <File FileName="TestApp/Models/PlayerScoreDetail.cs" />
-      <File FileName="TestApp/Models/youshallpassContext.cs" />
+      <File FileName="TestApp/Models/youshallpassContext.cs" Line="71" Column="57" />
       <File FileName="TestApp/Startup.cs" />
       <File FileName="TestApp/Views/Shared/Test.cshtml" />
       <File FileName="TestApp/Views/Home/Index.cshtml" />
-      <File FileName="TestApp/Views/Home/Register.cshtml" Line="1" Column="1" />
+      <File FileName="TestApp/Views/Home/Register.cshtml" />
       <File FileName="TestApp/Views/Home/Account.cshtml" />
       <File FileName="TestApp/Models/Scoreboard.cs" />
       <File FileName="TestApp/Models/SimplePlayer.cs" />
@@ -30,12 +29,12 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="youshallpassContext.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Register.cshtml" selected="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
             </Node>

@@ -10,7 +10,6 @@ namespace TestApp.Models
         public int GameId { get; set; }
         public int? Score { get; set; }
         public DateTime? GameDate { get; set; }
-        public TimeSpan? Gametime { get; set; }
         public int PlayerId { get; set; }
 
         public virtual Player Player { get; set; }
