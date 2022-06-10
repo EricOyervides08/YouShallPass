@@ -1,0 +1,119 @@
+﻿@{ ViewData["Title"] = "Home Page"; }
+
+@model SimplePlayer
+
+<style>
+    p {
+        font-family: "Roboto", sans-serif;
+    }
+
+    .list-group-item.active {
+        background-color: seagreen;
+        border-color: seagreen;
+    }
+
+    #game {
+        background-color: darkgrey;
+        border-radius: 1vh;
+        height: 400px;
+    }
+
+    #title {
+        margin-bottom: 0;
+        color: white;
+    }
+
+    #last-scores-table {
+        padding-left: 3%;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .card-header.text-center {
+        background-color: black;
+        border-color: white;
+    }
+
+    .list-group-item {
+        background-color: black;
+        border-color: white;
+    }
+
+    h4 {
+        color: white;
+    }
+
+    div {
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="row mb-3 mt-4">
+        <!-- Information BEGIN -->
+        <div class="col-9">
+            <div class="row align-items-end">
+                <div id="score" class="col text-start">Score 0000</div>
+                <h4 id="title" class="col text-center">You Shall Pass</h4>
+                <div id="highscore" class="col text-end">Highscore 0000</div>
+            </div>
+        </div>
+        <!-- Information END -->
+
+        <div class="col-3"></div>
+    </div>
+    <div class="row">
+
+        <div id="game" class="col-9"></div>
+
+        <!-- Best Scores Table  BEGIN -->
+        <div id="last-scores-table" class="col-3">
+            <div class="card">
+                <div class="card-header text-center">Your Best Scores</div>
+                <div id="players" class="list-group list-group-flush">
+                    <!-- Scores BEGIN -->
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-2">1</div>
+                            <div class="col">Diego Piñones</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-2">2</div>
+                            <div class="col">Esparza</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-2">3</div>
+                            <div class="col">Roberto</div>
+                        </div>
+                    </li>
+                    <!-- Scores END -->
+                </div>
+            </div>
+        </div>
+        <!-- Best Scores Table END -->
+    </div>
+
+</body>
+
+@*<form id="form_score" action="" method="POST">
+    <input type="text" name="name" placeholder="Enter Your Name" />
+    <br />
+    <input type="email" name="email" placeholder="Enter Your E-mail" />
+    <br />
+    <textarea placeholder="Enter Your Message" name="message"></textarea>
+    <br />
+    <div onclick="submit_form()">Click Me To Submit</div>
+</form>
+<script>
+    function submit_form(){
+        var form = document.getElementById("my_form");
+        form.submit();
+        alert("Your Message Sent");
+    }
+</script>*@

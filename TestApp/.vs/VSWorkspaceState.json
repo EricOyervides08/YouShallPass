@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TestApp",
+    "\\TestApp\\TestApp",
+    "\\TestApp\\TestApp\\Controllers",
+    "\\TestApp\\TestApp\\Models",
+    "\\TestApp\\TestApp\\wwwroot"
+  ],
+  "SelectedNode": "\\TestApp\\TestApp.sln",
+  "PreviewInSolutionExplorer": false
+}

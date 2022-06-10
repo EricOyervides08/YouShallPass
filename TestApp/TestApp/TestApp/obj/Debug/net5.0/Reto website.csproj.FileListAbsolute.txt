@@ -1,0 +1,108 @@
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/appsettings.json
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.exe
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.deps.json
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.runtimeconfig.json
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.runtimeconfig.dev.json
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/ref/Reto website.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.pdb
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.Views.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.Views.pdb
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Humanizer.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Npgsql.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.AssemblyInfoInputs.cache
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.AssemblyInfo.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.csproj.CoreCompileInputs.cache
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.RazorAssemblyInfo.cache
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.RazorAssemblyInfo.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/staticwebassets/Reto website.StaticWebAssets.Manifest.cache
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/staticwebassets/Reto website.StaticWebAssets.xml
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/scopedcss/bundle/Reto website.styles.css
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.TagHelpers.input.cache
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.TagHelpers.output.cache
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.RazorCoreGenerate.cache
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Person/Create.cshtml.g.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Person/Edit.cshtml.g.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Person/Index.cshtml.g.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Shared/Test.cshtml.g.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.RazorTargetAssemblyInfo.cache
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.RazorTargetAssemblyInfo.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.Views.pdb
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.csproj.CopyComplete
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/ref/Reto website.dll
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.pdb
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.genruntimeconfig.cache
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.csproj.AssemblyReference.cache
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Person/Register.cshtml.g.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Game.cshtml.g.cs
+C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Scoreboard.cshtml.g.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/appsettings.Development.json
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/appsettings.json
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.deps.json
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.runtimeconfig.json
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.runtimeconfig.dev.json
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.pdb
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.Views.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Reto website.Views.pdb
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Humanizer.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Npgsql.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.csproj.AssemblyReference.cache
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.GeneratedMSBuildEditorConfig.editorconfig
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.AssemblyInfoInputs.cache
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.AssemblyInfo.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.csproj.CoreCompileInputs.cache
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.MvcApplicationPartsAssemblyInfo.cache
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.RazorAssemblyInfo.cache
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.RazorAssemblyInfo.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/scopedcss/bundle/Reto website.styles.css
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/staticwebassets/Reto website.StaticWebAssets.Manifest.cache
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.TagHelpers.input.cache
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.TagHelpers.output.cache
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.RazorCoreGenerate.cache
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Game.cshtml.g.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Scoreboard.cshtml.g.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Shared/Test.cshtml.g.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.RazorTargetAssemblyInfo.cache
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.RazorTargetAssemblyInfo.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.Views.pdb
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.csproj.CopyComplete
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.pdb
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.genruntimeconfig.cache
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/ref/Reto website.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/ref/Reto website.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/staticwebassets/Reto website.StaticWebAssets.xml
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Register.cshtml.g.cs
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/diegopinones/Documents/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Account.cshtml.g.cs

@@ -1,0 +1,37 @@
+﻿@*
+    Vista base para formulario de prueba POST
+*@
+
+@model Player
+
+@if (ViewData["Error"] != null)
+{
+    <div class="alert-danger" role="alert">@ViewData["Error"]</div>
+}
+
+<style>
+    label {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+    }
+</style>
+
+<!-- Formulario basico-->
+<body style="background-color: black;">
+    <form method="post" asp-controller="Home" asp-action="Register">
+
+        <label for="name">Nickname:</label>
+        <input asp-for="Nickname" placeholder="Input your name" /><br />
+
+        <label for="age">Email:</label>
+        <input asp-for="Email" placeholder="Input your email" /><br />
+
+        <label for="address">Age:</label>
+        <input asp-for="Age" placeholder="Input your age" /><br />
+
+        <label for="country">Country:</label>
+        <input asp-for="Country" placeholder="Input your country" /><br />
+
+        <input type="submit" value="Enviar"/>
+    </form>
+</body>

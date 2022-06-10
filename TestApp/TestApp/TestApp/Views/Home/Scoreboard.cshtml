@@ -1,0 +1,50 @@
+﻿@{ ViewData["Title"] = "Scoreboard"; }
+
+@model List<Scoreboard>
+@{ int i = 1;}
+
+<style>
+    p {
+        font-family: "Roboto", sans-serif;
+    }
+
+    .table {
+        color: white;
+        background-color: black;
+        max-width: 50%;
+    }
+
+    #title {
+        color: seagreen;
+    }
+
+    #body {
+        color: black;
+        background-color: black;
+    }
+</style>
+
+<body>
+    <h4 id="title" class="text-center mb-4">Scoreboard</h4>
+    <div class="row text-center justify-content-center">
+        <table class="table table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nickname</th>
+                    <th scope="col">Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var player in Model)
+                {
+                <tr>
+                    <th scope="row">@(i++)</th>
+                    <td>@player.nickname</td>
+                    <td>@player.highscore</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>

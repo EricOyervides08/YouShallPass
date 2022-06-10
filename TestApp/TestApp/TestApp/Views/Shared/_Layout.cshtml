@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MVC1</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MVC1.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style2.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <style>
+        :root {
+            --base-color: gray;
+        }
+
+        .bg-base {
+            background-color: var(--base-color);
+        }
+
+        .wrapper {
+            display: flex;
+            width: 100%;
+            justify-content: end;
+        }
+
+        main .navbar {
+            position: fixed;
+            width: 100%;
+            z-index: 998;
+            height: 60px; 
+        }
+
+        #sidebar {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 999;
+            background-color: rgb(43, 51, 57);
+            color: whitesmoke;
+            transition: all 0.3s;
+        }
+
+            #sidebar.active {
+                min-width: 100px;
+                max-width: 100px;
+                text-align: center;
+            }
+
+            #sidebar .sidebar-header strong {
+                display: none;
+            }
+
+            #sidebar.active .sidebar-header h3 {
+                display: none;
+            }
+
+            #sidebar.active .sidebar-header strong {
+                display: block
+            }
+
+        #content {
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 90px;
+        }
+
+        #sidebar .sidebar-header {
+            background-color: var(--base-color);
+            height: 60px;
+        }
+
+        #sidebar ul.components {
+            padding: 6vh 0;
+        }
+
+            #sidebar ul.components li.active {
+                
+            }
+
+        #sidebar ul p {
+            color: #fff;
+            padding: 10px;
+        }
+
+        #sidebar ul li a {
+            color: whitesmoke;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 1.1em;
+            display: block;
+            text-align: left
+        }
+
+        #sidebar.active ul li a {
+            padding: 20px 10px;
+            text-align: center;
+            font-size: 0.85em;
+        }
+
+        #sidebar ul li a span {
+            vertical-align: top;
+        }
+
+        #sidebar.active ul li a span {
+            vertical-align: top;
+            width: 100%;
+        }
+
+        #sidebar ul li a:hover {
+            color: cadetblue;
+        }
+
+        #menu {
+            cursor: pointer;
+            color: whitesmoke;
+            padding: 1vh 1vh 1vh 1vh;
+            
+        }
+
+            #menu:hover {
+                color: cadetblue;
+            }
+
+        ul ul a {
+            font-size: 0.9em !important;
+            padding-left: 30px !important;
+            background: #6d7fcc;
+        }
+
+        body {
+            margin: 0 0 0 0;
+        }
+
+        h3 {
+            margin: 0 0 0 0;
+            padding: 4% 2% 2% 2%
+        }
+
+        main {
+            width: calc(100% - 250px);
+            transition: all 0.3s;
+        }
+
+            main.expanded {
+                width: calc(100% - 100px);
+            }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar BEGIN -->
+        <nav id="sidebar" class="active">
+            <div class="sidebar-header text-center">
+                <h3>You Shall Pass</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a asp-area="" asp-controller="Home" asp-action="Index">
+                        <span class="material-symbols-outlined">home</span>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Game">
+                        <span class="material-symbols-outlined">play_arrow</span>
+                        Game
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Scoreboard">
+                        <span class="material-symbols-outlined">sports_score</span>
+                        Scoreboard
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Register">
+                        <span class="material-symbols-outlined">bookmark</span>
+                        Register
+                    </a>
+                </li>
+                <!--<li>
+        <a asp-area="" asp-controller="Person" asp-action="Index">
+            <span class="material-symbols-outlined">play_arrow</span>
+            User Menu
+        </a>
+    </li> -->
+            </ul>
+        </nav>
+        <!-- Sidebar END -->
+        <!-- Page Content BEGIN -->
+        <main role="main" class="expanded">
+            <!-- Header BEGIN -->
+            <nav class="navbar navbar-expand-lg bg-base">
+                <div class="container-fluid">
+                    
+                </div>
+            </nav>
+            <!-- Header END -->
+
+            <div id="content">
+                @RenderBody()
+            </div>
+        </main>
+        <!-- Page Content END -->
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+       
+    </script>
+</body>
+</html>
