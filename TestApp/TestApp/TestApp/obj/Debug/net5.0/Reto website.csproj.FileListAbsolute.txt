@@ -140,7 +140,6 @@ C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Ho
 /Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.TagHelpers.input.cache
 /Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.TagHelpers.output.cache
 /Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.RazorCoreGenerate.cache
-/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Account.cshtml.g.cs
 /Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Game.cshtml.g.cs
 /Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
 /Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Register.cshtml.g.cs
@@ -159,3 +158,4 @@ C:/Users/eduar/Downloads/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Ho
 /Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Debug/net5.0/ref/Reto website.dll
 /Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.pdb
 /Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Debug/net5.0/Reto website.genruntimeconfig.cache
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Debug/net5.0/Razor/Views/Home/Edit.cshtml.g.cs

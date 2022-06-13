@@ -1,10 +1,9 @@
-﻿using System;
-namespace Reto_website.Models
+﻿namespace TestApp.Models
 {
-    public class UserScore
+    public class PlayerScore
     {
-        public UserScore()
-        {
-        }
+        public int playerid { get; set; }
+        public string nickname { get; set; }
+        public int score { get; set; }
     }
 }

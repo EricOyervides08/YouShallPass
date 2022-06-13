@@ -1,0 +1,51 @@
+﻿body {
+    width: 35cm;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: 'Times New Roman', 'Times New Roman', 'serif';
+    text-align: center;
+}
+
+.parrafo {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.links {
+    color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img {
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+

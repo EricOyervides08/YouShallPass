@@ -5,7 +5,8 @@ CREATE DATABASE youshallpass;
 -- CREATE TABLES
 CREATE TABLE players
 (
-    id SERIAL PRIMARY KEY NOT NULL,
+   
+id SERIAL PRIMARY KEY NOT NULL,
     nickname VARCHAR(50) NOT NULL,
     email VARCHAR(50) NOT NULL,
     age INT NOT NULL,
@@ -18,7 +19,6 @@ CREATE TABLE games
     game_id SERIAL PRIMARY KEY NOT NULL ,
     score INT,
     game_date DATE DEFAULT CURRENT_DATE,
-    gametime TIME WITHOUT TIME ZONE,
     player_id SERIAL NOT NULL,
     CONSTRAINT fk_player_id
 	FOREIGN KEY (player_id)
@@ -77,9 +77,9 @@ $$;
 -- PROCEDURES/FUNCTIONS TABLA GAMES
 
 -- INSERT
-CREATE OR REPLACE PROCEDURE sp_games_insert(game_score INT, game_time TIME, p_id INT)
+CREATE OR REPLACE PROCEDURE sp_games_insert(game_score INT, p_id INT)
 AS $$ 
-	INSERT INTO games VALUES (DEFAULT, game_score, DEFAULT, game_time, p_id)
+	INSERT INTO games VALUES (DEFAULT, game_score, DEFAULT, p_id)
 $$ LANGUAGE SQL;
 
 -- DELETE
@@ -160,14 +160,14 @@ CALL sp_player_delete('Maria Perez','mariaperez@gmail.com');
 CALL sp_player_insert('Juan Martinez','juanmartinez@gmail.com',15,'Ecuador');
 CALL sp_player_update('Juan Martinez','martinezjuan@gmail.com',16,'Mexico');
 
-CALL sp_games_insert(400,'00:10:59',2);
-CALL sp_games_insert(200,'00:11:35',2);
-CALL sp_games_insert(150,'00:11:35',4);
-CALL sp_games_insert(600,'00:11:35',3);
-CALL sp_games_insert(1000,'00:11:35',4);
-CALL sp_games_insert(50,'00:11:35',4);
-CALL sp_games_insert(10,'00:11:35',3);
-CALL sp_games_insert(160,'00:11:35',2);
+CALL sp_games_insert(400,2);
+CALL sp_games_insert(200,2);
+CALL sp_games_insert(150,4);
+CALL sp_games_insert(600,3);
+CALL sp_games_insert(1000,4);
+CALL sp_games_insert(50,4);
+CALL sp_games_insert(10,3);
+CALL sp_games_insert(160,2);
 CALL sp_games_delete(1);
 
 SELECT * FROM fn_player_hiscore(4);

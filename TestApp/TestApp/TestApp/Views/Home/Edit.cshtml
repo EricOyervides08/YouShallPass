@@ -1,10 +1,34 @@
-﻿using System;
-namespace Reto_website.Views.Home
+﻿@model  Player
+
+@if (ViewData["Error"] != null)
 {
-	public class Account
-	{
-		public Account()
-		{
-		}
-	}
+    <div class="alert-danger" role="alert">@ViewData["Error"]</div>
 }
+
+<style>
+    label {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+    }
+</style>
+
+<!-- Formulario basico-->
+<body style="background-color: black;">
+    <form method="post" asp-controller="Home" asp-action="Register">
+
+        <label for="nickname">Nickname: @Model.Nickname </label><br />
+
+        <label for="email">Email:</label>
+        <input asp-for="Email" placeholder="Input your new email" /><br />
+
+        <label for="age">Age:</label>
+        <input asp-for="Age" placeholder="Input your new age" /><br />
+
+        <label for="country">Country:</label>
+        <input asp-for="Country" placeholder="Input your new country" /><br />
+
+        <input type="hidden" name="Nickname" value="@Model.Nickname" />
+
+        <input type="submit" value="Enviar" />
+    </form>
+</body>

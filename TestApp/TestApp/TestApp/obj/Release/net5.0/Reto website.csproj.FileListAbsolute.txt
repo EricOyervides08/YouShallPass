@@ -1,0 +1,53 @@
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/appsettings.Development.json
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/appsettings.json
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Reto website
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Reto website.deps.json
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Reto website.runtimeconfig.json
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Reto website.runtimeconfig.dev.json
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Reto website.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Reto website.pdb
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Reto website.Views.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Reto website.Views.pdb
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Humanizer.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Newtonsoft.Json.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Npgsql.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/bin/Release/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.csproj.AssemblyReference.cache
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.GeneratedMSBuildEditorConfig.editorconfig
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.AssemblyInfoInputs.cache
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.AssemblyInfo.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.csproj.CoreCompileInputs.cache
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.MvcApplicationPartsAssemblyInfo.cache
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.RazorAssemblyInfo.cache
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.RazorAssemblyInfo.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/scopedcss/bundle/Reto website.styles.css
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/staticwebassets/Reto website.StaticWebAssets.Manifest.cache
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.TagHelpers.input.cache
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.TagHelpers.output.cache
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.RazorCoreGenerate.cache
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Razor/Views/Home/Edit.cshtml.g.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Razor/Views/Home/Game.cshtml.g.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Razor/Views/Home/Register.cshtml.g.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Razor/Views/Home/Scoreboard.cshtml.g.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Razor/Views/Shared/Test.cshtml.g.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.RazorTargetAssemblyInfo.cache
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.RazorTargetAssemblyInfo.cs
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.Views.pdb
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.csproj.CopyComplete
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/refint/Reto website.dll
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.pdb
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/Reto website.genruntimeconfig.cache
+/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/Release/net5.0/ref/Reto website.dll

@@ -55,9 +55,9 @@
         <!-- Information BEGIN -->
         <div class="col-9">
             <div class="row align-items-end">
-                <div id="score" class="col text-start">Score 0000</div>
+                <div class="col text-start">Score <span id="score">0000</span></div>
                 <h4 id="title" class="col text-center">You Shall Pass</h4>
-                <div id="highscore" class="col text-end">Highscore 0000</div>
+                <div class="col text-end">Highscore <span id="highscore">0000</span></div>
             </div>
         </div>
         <!-- Information END -->
@@ -74,46 +74,55 @@
                 <div class="card-header text-center">Your Best Scores</div>
                 <div id="players" class="list-group list-group-flush">
                     <!-- Scores BEGIN -->
-                    <li class="list-group-item">
-                        <div class="row">
-                            <div class="col-2">1</div>
-                            <div class="col">Diego Piñones</div>
-                        </div>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="row">
-                            <div class="col-2">2</div>
-                            <div class="col">Esparza</div>
-                        </div>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="row">
-                            <div class="col-2">3</div>
-                            <div class="col">Roberto</div>
-                        </div>
-                    </li>
+                    
                     <!-- Scores END -->
                 </div>
             </div>
         </div>
         <!-- Best Scores Table END -->
     </div>
-
+    <div class="row">
+        @if (Model != null)
+        {
+        <div id="edit" class="col text-start">
+            <a asp-controller="Home" asp-action="Edit" asp-route-id="@Model.id">Editar datos de registro</a>
+        </div>
+        <div id="delete" class="col text-end">
+            <a asp-controller="Home" asp-action="Delete" asp-route-id="@Model.id">Borrar datos</a>
+        </div>}
+    </div>
 </body>
 
-@*<form id="form_score" action="" method="POST">
-    <input type="text" name="name" placeholder="Enter Your Name" />
-    <br />
-    <input type="email" name="email" placeholder="Enter Your E-mail" />
-    <br />
-    <textarea placeholder="Enter Your Message" name="message"></textarea>
-    <br />
-    <div onclick="submit_form()">Click Me To Submit</div>
-</form>
 <script>
-    function submit_form(){
-        var form = document.getElementById("my_form");
-        form.submit();
-        alert("Your Message Sent");
-    }
-</script>*@
+
+    function updateScore() {
+        $.get("/api/game/@ViewData["id"]").done( //scores jugador
+            function (data) {
+                $("#score").text(data);
+
+                if (data > parseInt($("#highscore").text())) {
+                    $("#highscore").text(data);
+                }
+            }
+        )
+
+        $.get("/api/game/").done( //Scoreboard jugador
+            function (data) {
+                <script src="https://d3js.org/d3.v7.min.js">
+                    
+                </script>
+            }
+        )
+
+        @*$.ajax("/api/game", {
+            method: "POST",
+            dataType: "json",
+            processData: false,
+            contentType: "applications/json; charset=utf-8"
+        }).done(
+            function (data) {
+            console.log(data);
+            }
+        );*@
+    };        
+</script>

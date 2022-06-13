@@ -1,0 +1,54 @@
+/Users/diegopinones/Downloads/publish/Reto website
+/Users/diegopinones/Downloads/publish/wwwroot/css/site.css
+/Users/diegopinones/Downloads/publish/wwwroot/css/StyleSheet.css
+/Users/diegopinones/Downloads/publish/wwwroot/favicon.ico
+/Users/diegopinones/Downloads/publish/wwwroot/js/site.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/css/bootstrap.css
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map
+/Users/diegopinones/Downloads/publish/wwwroot/lib/bootstrap/LICENSE
+/Users/diegopinones/Downloads/publish/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt
+/Users/diegopinones/Downloads/publish/wwwroot/lib/jquery-validation/dist/additional-methods.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/jquery-validation/dist/additional-methods.min.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/jquery-validation/dist/jquery.validate.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/jquery-validation/LICENSE.md
+/Users/diegopinones/Downloads/publish/wwwroot/lib/jquery/dist/jquery.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/jquery/dist/jquery.min.js
+/Users/diegopinones/Downloads/publish/wwwroot/lib/jquery/dist/jquery.min.map
+/Users/diegopinones/Downloads/publish/wwwroot/lib/jquery/LICENSE.txt
+/Users/diegopinones/Downloads/publish/appsettings.Development.json
+/Users/diegopinones/Downloads/publish/appsettings.json
+/Users/diegopinones/Downloads/publish/Reto website.dll
+/Users/diegopinones/Downloads/publish/Reto website.runtimeconfig.json
+/Users/diegopinones/Downloads/publish/Reto website.pdb
+/Users/diegopinones/Downloads/publish/Microsoft.EntityFrameworkCore.dll
+/Users/diegopinones/Downloads/publish/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/diegopinones/Downloads/publish/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/diegopinones/Downloads/publish/Microsoft.Extensions.DependencyInjection.dll
+/Users/diegopinones/Downloads/publish/Newtonsoft.Json.dll
+/Users/diegopinones/Downloads/publish/Npgsql.dll
+/Users/diegopinones/Downloads/publish/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/diegopinones/Downloads/publish/System.Diagnostics.DiagnosticSource.dll
+/Users/diegopinones/Downloads/publish/Reto website.Views.dll
+/Users/diegopinones/Downloads/publish/Reto website.Views.pdb
+/Users/diegopinones/Downloads/publish/Reto website.deps.json

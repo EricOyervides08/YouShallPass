@@ -24,6 +24,8 @@ namespace TestApp.Models
 
         public virtual DbSet<Scoreboard> Scoreboard { get; set; }
         public virtual DbSet<SimplePlayer> SimplePlayer { get; set; }
+        public virtual DbSet<PlayerScore> PlayerScore { get; set; }
+        public virtual DbSet<GameScore> GameScore { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
