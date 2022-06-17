@@ -1,7 +1,6 @@
 ﻿@{ ViewData["Title"] = "Home Page"; }
 
-@model SimplePlayer
-
+@model SimplePlayer 
 <style>
     p {
         font-family: "Roboto", sans-serif;
@@ -57,7 +56,7 @@
             <div class="row align-items-end">
                 <div class="col text-start">Score <span id="score">0000</span></div>
                 <h4 id="title" class="col text-center">You Shall Pass</h4>
-                <div class="col text-end">Highscore <span id="highscore">0000</span></div>
+                <div class="col text-end" style="text-align: end;">Highscore <span id="highscore">0000</span></div>
             </div>
         </div>
         <!-- Information END -->
@@ -66,15 +65,109 @@
     </div>
     <div class="row">
 
-        <div id="game" class="col-9"></div>
+        <div id="game-wrapper" class="col-9">
+            @*<iframe src="/game/index.html" id="game" width="100%" height="100%"></iframe>*@
+            <div id="unity-container" class="unity-desktop">
+                <canvas id="unity-canvas" width=960 height=600></canvas>
+                <div id="unity-loading-bar">
+                    <div id="unity-logo"></div>
+                    <div id="unity-progress-bar-empty">
+                        <div id="unity-progress-bar-full"></div>
+                    </div>
+                </div>
+                <div id="unity-warning"> </div>
+                <div id="unity-footer">
+                    <div id="unity-webgl-logo"></div>
+                    <div id="unity-fullscreen-button"></div>
+                    <div id="unity-build-title">You shall pass</div>
+                </div>
+            </div>
+            <script>var container = document.querySelector("#unity-container");
+                var canvas = document.querySelector("#unity-canvas");
+                var loadingBar = document.querySelector("#unity-loading-bar");
+                var progressBarFull = document.querySelector("#unity-progress-bar-full");
+                var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+                var warningBanner = document.querySelector("#unity-warning");
+
+                // Shows a temporary message banner/ribbon for a few seconds, or
+                // a permanent error message on top of the canvas if type=='error'.
+                // If type=='warning', a yellow highlight color is used.
+                // Modify or remove this function to customize the visually presented
+                // way that non-critical warnings and error messages are presented to the
+                // user.
+                function unityShowBanner(msg, type) {
+                    function updateBannerVisibility() {
+                        warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+                    }
+                    var div = document.createElement('div');
+                    div.innerHTML = msg;
+                    warningBanner.appendChild(div);
+                    if (type == 'error') div.style = 'background: red; padding: 10px;';
+                    else {
+                        if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+                        setTimeout(function () {
+                            warningBanner.removeChild(div);
+                            updateBannerVisibility();
+                        }, 5000);
+                    }
+                    updateBannerVisibility();
+                }
+
+                var buildUrl = "/game/Build";
+                var loaderUrl = buildUrl + "/WebGl.loader.js";
+                var config = {
+                    dataUrl: buildUrl + "/WebGl.data.gz",
+                    frameworkUrl: buildUrl + "/WebGl.framework.js.gz",
+                    codeUrl: buildUrl + "/WebGl.wasm.gz",
+                    streamingAssetsUrl: "StreamingAssets",
+                    companyName: "DefaultCompany",
+                    productName: "You shall pass",
+                    productVersion: "0.1",
+                    showBanner: unityShowBanner,
+                };
+
+                // By default Unity keeps WebGL canvas render target size matched with
+                // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+                // Set this to false if you want to decouple this synchronization from
+                // happening inside the engine, and you would instead like to size up
+                // the canvas DOM size and WebGL render target sizes yourself.
+                // config.matchWebGLToCanvasSize = false;
+
+                if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+                    container.className = "unity-mobile";
+                    // Avoid draining fillrate performance on mobile devices,
+                    // and default/override low DPI mode on mobile browsers.
+                    config.devicePixelRatio = 1;
+                    unityShowBanner('WebGL builds are not supported on mobile devices.');
+                } else {
+                    canvas.style.width = "960px";
+                    canvas.style.height = "600px";
+                }
+                loadingBar.style.display = "block";
+
+                var script = document.createElement("script");
+                script.src = loaderUrl;
+                script.onload = () => {
+                    createUnityInstance(canvas, config, (progress) => {
+                        progressBarFull.style.width = 100 * progress + "%";
+                    }).then((unityInstance) => {
+                        loadingBar.style.display = "none";
+                        fullscreenButton.onclick = () => {
+                            unityInstance.SetFullscreen(1);
+                        };
+                    }).catch((message) => {
+                        alert(message);
+                    });
+                };
+                document.body.appendChild(script);</script>
+        </div>
 
         <!-- Best Scores Table  BEGIN -->
-        <div id="last-scores-table" class="col-3">
+        <div id="last-scores-table" class="col-2w">
             <div class="card">
                 <div class="card-header text-center">Your Best Scores</div>
-                <div id="players" class="list-group list-group-flush">
+                <div id="player-score" class="list-group list-group-flush">
                     <!-- Scores BEGIN -->
-                    
                     <!-- Scores END -->
                 </div>
             </div>
@@ -82,47 +175,44 @@
         <!-- Best Scores Table END -->
     </div>
     <div class="row">
-        @if (Model != null)
+        @if (ViewData["id"] != null)
         {
-        <div id="edit" class="col text-start">
-            <a asp-controller="Home" asp-action="Edit" asp-route-id="@Model.id">Editar datos de registro</a>
-        </div>
-        <div id="delete" class="col text-end">
-            <a asp-controller="Home" asp-action="Delete" asp-route-id="@Model.id">Borrar datos</a>
-        </div>}
+<div id="edit" class="col text-start">
+    <a asp-controller="Home" asp-action="Edit" asp-route-id="@Model.id">Editar datos de registro</a>
+</div>
+                <div id="delete" class="col text-end">
+                    <a asp-controller="Home" asp-action="Delete" asp-route-id="@ViewData["id"]">Borrar datos</a>
+                </div>}
     </div>
 </body>
-
 <script>
-
-    function updateScore() {
-        $.get("/api/game/@ViewData["id"]").done( //scores jugador
-            function (data) {
-                $("#score").text(data);
-
-                if (data > parseInt($("#highscore").text())) {
-                    $("#highscore").text(data);
-                }
-            }
-        )
-
-        $.get("/api/game/").done( //Scoreboard jugador
-            function (data) {
-                <script src="https://d3js.org/d3.v7.min.js">
-                    
-                </script>
-            }
-        )
-
-        @*$.ajax("/api/game", {
+    function UpdateScore(intScore, PlayerId) {
+        $.ajax({
+            url: "/api/game",
             method: "POST",
             dataType: "json",
             processData: false,
-            contentType: "applications/json; charset=utf-8"
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify({ score: intScore, id: PlayerId })
         }).done(
             function (data) {
-            console.log(data);
+                $("#score").text(data.score);
+
+                if (data.score > parseInt($("#highscore").text())) {
+                    $("#highscore").text(data.score);
+                }
+
+                var table = d3.select("#player-score");
+                table.selectAll("*").remove();
+                table.selectAll("li")
+                    .data(data.hiscoreList)
+                    .enter()
+                    .append("li")
+                    .attr("class", "list-group-item")
+                    .text(function (row) {
+                        return "Your Score: " + row.score;
+                    });
             }
-        );*@
-    };        
+        );
+    };
 </script>

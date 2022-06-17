@@ -1,8 +1,11 @@
-﻿namespace TestApp.Models
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace TestApp.Models
 {
+    [Keyless]
     public class PlayerScore
     {
-        public int playerid { get; set; }
+        public int player_id { get; set; }
         public string nickname { get; set; }
         public int score { get; set; }
     }

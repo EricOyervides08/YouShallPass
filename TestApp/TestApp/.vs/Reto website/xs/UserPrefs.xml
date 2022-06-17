@@ -1,27 +1,26 @@
 ﻿<Properties StartupConfiguration="{DF9198BC-D54A-41E4-A07B-CDDB91EEB534}|TestApp">
   <MonoDevelop.Ide.ItemProperties.Reto_220website PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/Models/Game.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/Views/Home/Game.cshtml">
     <Files>
-      <File FileName="TestApp/Views/Home/Game.cshtml" Line="90" Column="47" />
-      <File FileName="TestApp/Controllers/GameApiController.cs" Line="46" Column="19" />
-      <File FileName="TestApp/Controllers/HomeController.cs" />
+      <File FileName="TestApp/Models/SimplePlayer.cs" Line="8" Column="1" />
       <File FileName="TestApp/Views/Shared/_Layout.cshtml" />
+      <File FileName="TestApp/Views/Home/Game.cshtml" Line="116" Column="46" />
+      <File FileName="TestApp/Controllers/HomeController.cs" />
+      <File FileName="TestApp/Controllers/GameApiController.cs" />
       <File FileName="TestApp/Views/Home/Scoreboard.cshtml" />
-      <File FileName="TestApp/Models/Player.cs" Line="1" Column="1" />
-      <File FileName="TestApp/Models/Bitacora.cs" Line="1" Column="1" />
-      <File FileName="TestApp/Models/youshallpassContext.cs" Line="36" Column="1" />
-      <File FileName="TestApp/Startup.cs" />
-      <File FileName="TestApp/Views/Shared/Test.cshtml" />
+      <File FileName="TestApp/Models/Player.cs" />
+      <File FileName="TestApp/Models/youshallpassContext.cs" Line="36" Column="127" />
       <File FileName="TestApp/Views/Home/Index.cshtml" />
       <File FileName="TestApp/Views/Home/Register.cshtml" />
       <File FileName="TestApp/Properties/launchSettings.json" />
-      <File FileName="TestApp/Models/Game.cs" Line="1" Column="1" />
-      <File FileName="TestApp/Models/Scoreboard.cs" Line="1" Column="1" />
-      <File FileName="TestApp/Models/SimplePlayer.cs" Line="1" Column="1" />
-      <File FileName="TestApp/Models/PlayerScoreDetail.cs" Line="1" Column="1" />
-      <File FileName="TestApp/Models/EmptyClass.cs" Line="11" Column="1" />
-      <File FileName="TestApp/Models/PlayerScore.cs" Line="1" Column="1" />
-      <File FileName="TestApp/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="TestApp/Models/Game.cs" />
+      <File FileName="TestApp/Models/Scoreboard.cs" />
+      <File FileName="TestApp/Models/PlayerScoreDetail.cs" />
+      <File FileName="TestApp/Models/GameScore.cs" />
+      <File FileName="TestApp/Models/PlayerScore.cs" />
+      <File FileName="TestApp/Models/ErrorViewModel.cs" />
+      <File FileName="TestApp/Program.cs" />
+      <File FileName="TestApp/Models/Score.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,16 +31,21 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Game.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="Game.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>playerId.id</Value>
         </State>
       </Pad>
     </Pads>

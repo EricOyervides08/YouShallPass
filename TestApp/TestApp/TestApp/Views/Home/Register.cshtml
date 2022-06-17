@@ -20,18 +20,42 @@
 <body style="background-color: black;">
     <form method="post" asp-controller="Home" asp-action="Register">
 
-        <label for="nickname">Nickname:</label>
-        <input asp-for="Nickname" placeholder="Input your name" /><br />
+        <div class="row">
+            <div class="col-2">
+                <label for="nickname">Nickname:</label>
+            </div>
+            <div class="col">
+                <input asp-for="Nickname" placeholder="Input your name" /><br />
+            </div>
+        </div>
 
-        <label for="email">Email:</label>
-        <input asp-for="Email" placeholder="Input your email" /><br />
+        <div class="row">
+            <div class="col-2">
+                <label for="email">Email:</label>
+            </div>
+            <div class="col">
+                <input asp-for="Email" placeholder="Input your email" /><br />
+            </div>
+        </div>
 
-        <label for="age">Age:</label>
-        <input asp-for="Age" placeholder="Input your age" /><br />
+        <div class="row">
+            <div class="col-2">
+                <label for="age">Age:</label>
+            </div>
+            <div class="col">
+                <input asp-for="Age" placeholder="Input your age" /><br />
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-2">
         <label for="country">Country:</label>
+            </div>
+            <div class="col">
         <input asp-for="Country" placeholder="Input your country" /><br />
+            </div>
+        </div>
 
-        <input type="submit" value="Enviar"/>
+        <input type="submit" value="Enviar" />
     </form>
 </body>

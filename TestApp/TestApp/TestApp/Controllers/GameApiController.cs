@@ -46,20 +46,36 @@ namespace TestApp.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] GameScore gameScore)
         {
-            var playerId = HttpContext.Session.GetInt32("playerId");
+            //var apiPlayerId = (int)HttpContext.Session.GetInt32("PlayerId");
 
-            var sql = $"call sp_games_insert({gameScore.score}::int4, '{playerId}')";
+            var sql = $"call sp_games_insert({gameScore.score}, {gameScore.id})";
 
             try
             {
                 var result = database.Database.ExecuteSqlRaw(sql);
-                return Ok(result);
+
+                var hiscoreSql = $"select player_id, nickname, score from fn_player_hiscore({gameScore.id})";
+
+                var hiscoreResult = database.PlayerScore.FromSqlRaw(hiscoreSql).ToList();
+
+                var scoreSql = $"select games.score as score from games where games.player_id = {gameScore.id} order by games.game_id desc limit 1";
+
+                var scoreResult = database.Score.FromSqlRaw(scoreSql).ToList();
+
+                int playerScore = scoreResult[0].score ;
+
+                var scoreObject = new
+                {
+                    hiscoreList = hiscoreResult,
+                    score = playerScore
+                };
+
+                return Ok(scoreObject);
             }
             catch(Exception e)
             {
                 return ValidationProblem();
             }
-
         }
 
         // get api/game
@@ -67,7 +83,9 @@ namespace TestApp.Controllers
         public IActionResult Get() //Score table
         {
             //query
-            var sql = $"select playerid, nickname, score from fn_player_hiscore()";
+            var playerId = HttpContext.Session.GetInt32("PlayerId");
+
+            var sql = $"select playerid, nickname, score from fn_player_hiscore({playerId})";
 
             var result = database.PlayerScore.FromSqlRaw(sql).ToList();
 
@@ -83,9 +101,9 @@ namespace TestApp.Controllers
 
             var result = database.GameScore.FromSqlRaw(sql).ToList();
 
-            int playerScore;
+            int playerScore = result[0].score ;
 
-            Int32.TryParse(result[0].score, out playerScore);
+            //TryParse(result[0].score, out playerScore);
 
             return Ok(playerScore);
         }

@@ -60,7 +60,6 @@ namespace TestApp.Controllers
             }
 
             var sql = $"call sp_player_insert('{player.Nickname}','{player.Email}','{player.Age}'::int2,'{player.Country}')";
-
             try
             {
                 var result = database.Database.ExecuteSqlRaw(sql);
@@ -76,9 +75,11 @@ namespace TestApp.Controllers
             var idResult = database.SimplePlayer.FromSqlRaw(idSql).ToList();
             var playerId = idResult[0];
 
-            HttpContext.Session.SetInt32("playerId", playerId.id);
+            HttpContext.Session.SetInt32("PlayerId", playerId.id);
 
-            return View("Game", playerId);
+            //ViewData["id"] = playerId.id;
+
+            return RedirectToAction("Game");
         }
 
         [HttpGet]
@@ -171,11 +172,26 @@ namespace TestApp.Controllers
         [HttpGet]
         public IActionResult Game()
         {
-            var playerId = HttpContext.Session.GetInt32("playerId");
+            try
+            {
+                var playerId = HttpContext.Session.GetInt32("PlayerId");
 
-            ViewData["id"] = playerId;
+                ViewData["id"] = playerId;
 
-            return View();
+                SimplePlayer player = new SimplePlayer();
+
+                if (playerId != null)
+                {
+                    player.id = playerId.GetValueOrDefault();
+                }
+
+                return View(player);
+            }
+            catch (Exception e)
+            {
+                return View("Register");
+            }
+            
         }
 
         [HttpPost]

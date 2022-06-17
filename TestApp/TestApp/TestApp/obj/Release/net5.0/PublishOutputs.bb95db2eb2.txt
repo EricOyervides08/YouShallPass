@@ -1,4 +1,9 @@
 /Users/diegopinones/Downloads/Reto website
+/Users/diegopinones/Downloads/wwwroot/.DS_Store
+/Users/diegopinones/Downloads/wwwroot/Build/WebGl.data.gz
+/Users/diegopinones/Downloads/wwwroot/Build/WebGl.framework.js.gz
+/Users/diegopinones/Downloads/wwwroot/Build/WebGl.loader.js
+/Users/diegopinones/Downloads/wwwroot/Build/WebGl.wasm.gz
 /Users/diegopinones/Downloads/wwwroot/css/site.css
 /Users/diegopinones/Downloads/wwwroot/css/StyleSheet.css
 /Users/diegopinones/Downloads/wwwroot/favicon.ico
@@ -36,6 +41,16 @@
 /Users/diegopinones/Downloads/wwwroot/lib/jquery/dist/jquery.min.js
 /Users/diegopinones/Downloads/wwwroot/lib/jquery/dist/jquery.min.map
 /Users/diegopinones/Downloads/wwwroot/lib/jquery/LICENSE.txt
+/Users/diegopinones/Downloads/wwwroot/TemplateData/favicon.ico
+/Users/diegopinones/Downloads/wwwroot/TemplateData/fullscreen-button.png
+/Users/diegopinones/Downloads/wwwroot/TemplateData/progress-bar-empty-dark.png
+/Users/diegopinones/Downloads/wwwroot/TemplateData/progress-bar-empty-light.png
+/Users/diegopinones/Downloads/wwwroot/TemplateData/progress-bar-full-dark.png
+/Users/diegopinones/Downloads/wwwroot/TemplateData/progress-bar-full-light.png
+/Users/diegopinones/Downloads/wwwroot/TemplateData/style.css
+/Users/diegopinones/Downloads/wwwroot/TemplateData/unity-logo-dark.png
+/Users/diegopinones/Downloads/wwwroot/TemplateData/unity-logo-light.png
+/Users/diegopinones/Downloads/wwwroot/TemplateData/webgl-logo.png
 /Users/diegopinones/Downloads/appsettings.Development.json
 /Users/diegopinones/Downloads/appsettings.json
 /Users/diegopinones/Downloads/Reto website.dll

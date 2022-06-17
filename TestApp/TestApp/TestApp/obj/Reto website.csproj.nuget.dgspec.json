@@ -14,7 +14,7 @@
         "outputPath": "/Users/diegopinones/Documents/GitHub/YouShallPass/TestApp/TestApp/TestApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/diegopinones/.nuget/NuGet/NuGet.Config"
+          "/Users/diegopinones/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
         }
       }
     }
